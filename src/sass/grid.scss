@@ -1,15 +1,29 @@
-.grid{
+.grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 50px;
 }
 
-.grid--pink{
+.grid--pink {
   grid-template-columns: 1fr 549px;
 }
 
-.grid-sm{
+.grid-sm {
   grid-template-columns: 135px 135px;
   grid-column-gap: 44px;
   grid-row-gap: 39px;
+}
+
+.grid--img {
+  grid-template-columns: 460px 1fr;
+  grid-column-gap: 97px;
+}
+
+.grid--revert {
+  grid-template-columns: 1fr 460px;
+  margin-top: 72px;
+
+  .grid__item-img {
+    order: 2
+  }
 }

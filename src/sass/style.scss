@@ -8,6 +8,8 @@
 @import "grid";
 @import "button";
 @import "list";
+@import "section3";
+
 
 body {
   font-family: 'Poppins';
@@ -24,4 +26,8 @@ a {
 .container {
   margin: auto;
   max-width: 1298px;
+}
+
+.container__content{
+  max-width: 1133px;
 }

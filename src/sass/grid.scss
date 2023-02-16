@@ -27,3 +27,8 @@
     order: 2
   }
 }
+
+.grid--f{
+  grid-template-columns: 519px 1fr;
+  grid-column-gap: 104px;
+}

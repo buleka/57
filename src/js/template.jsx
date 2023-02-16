@@ -4,6 +4,9 @@ import Section from "./section.jsx";
 import Section2 from "./section2.jsx";
 import Section3 from "./section3.jsx";
 import Section4 from "./section4.jsx";
+import Footer from './footer.jsx';
+
+
 class Template extends React.Component {
     render() {
         return (
@@ -15,6 +18,7 @@ class Template extends React.Component {
                     <Section3/>
                     <Section4/>
                 </main>
+                <Footer/>
             </div>
         )
     }

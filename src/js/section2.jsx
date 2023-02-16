@@ -39,11 +39,8 @@ class Section2 extends React.Component {
                                 </ul>
                             </div>
                         </div>
-
-
                     </div>
                 </div>
-
             </section>
         )
     }

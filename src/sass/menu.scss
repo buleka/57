@@ -1,0 +1,29 @@
+.menu {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.menu__item {
+  margin-right: 66px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.menu__link {
+  color: #001C54;
+  opacity: 0.5;
+  transition: 0.5s ease opacity;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.menu__link--active {
+  opacity: 1;
+}

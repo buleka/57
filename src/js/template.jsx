@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from "./header.jsx";
-
+import Section from "./section.jsx";
+import Section2 from "./section2.jsx";
 
 class Template extends React.Component {
     render() {
@@ -8,7 +9,8 @@ class Template extends React.Component {
             <div>
                 <Header/>
                 <main>
-
+                    <Section/>
+                    <Section2/>
                 </main>
             </div>
         )

@@ -1,0 +1,15 @@
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+}
+
+.grid--pink{
+  grid-template-columns: 1fr 549px;
+}
+
+.grid-sm{
+  grid-template-columns: 135px 135px;
+  grid-column-gap: 44px;
+  grid-row-gap: 39px;
+}
